@@ -1,0 +1,46 @@
+/* 基本設定 */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* 見出しやリンク */
+h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 記事部分 */
+.posts article {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #999;
+  font-size: 0.9rem;
+}
